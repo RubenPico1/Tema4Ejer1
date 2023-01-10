@@ -10,36 +10,43 @@ package javaaplicationstrp;
  */
 public class Persona {
     
-    String nombre;
-    String Apellido;
-    String Correo;   
+    String n;
+    String a;
+    String c;   
     
     public Persona(){
             
     }
 
-    public String getNombre() {
-        return nombre;
+    public Persona(String n, String a, String c) {
+        this.n = n;
+        this.a = a;
+        this.c = c;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public String getN() {
+        return n;
     }
 
-    public String getApellido() {
-        return Apellido;
+    public void setN(String n) {
+        this.n = n;
     }
 
-    public void setApellido(String Apellido) {
-        this.Apellido = Apellido;
+    public String getA() {
+        return a;
     }
 
-    public String getCorreo() {
-        return Correo;
+    public void setA(String a) {
+        this.a = a;
     }
 
-    public void setCorreo(String Correo) {
-        this.Correo = Correo;
-    }    
-        
+    public String getC() {
+        return c;
+    }
+
+    public void setC(String c) {
+        this.c = c;
+    }
+
+  
 }
